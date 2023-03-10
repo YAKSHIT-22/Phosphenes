@@ -7,17 +7,17 @@ const Header = () => {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-    <header className="w-screen md:px-6 flex justify-center items-center">
+    <header className="w-screen flex justify-center items-center max-w-[95%]">
       <nav className="px-4 py-4 w-full flex justify-between items-center">
       <HashLink
       smooth
               to="/#home"
             >
-        <div className="flex items-center justify-center flex-row">
+        <div className="flex items-center justify-center flex-row lg:p-2">
           <img
             src={logo}
             alt="codechef"
-            className="w-auto h-10 sm:h-14"
+            className="w-auto h-10 sm:h-12 lg:h-14"
 
           />
         </div>
