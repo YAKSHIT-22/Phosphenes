@@ -2,7 +2,7 @@ import React from 'react'
 
 const Prizes = () => {
   return (
-    <div>Prizes</div>
+    <section className="w-screen h-screen bg-black">Prizes</section>
   )
 }
 
