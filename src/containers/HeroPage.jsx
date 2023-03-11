@@ -22,7 +22,7 @@ const HeroPage = () => {
             </div>
             <div className='flex items-center justify-start flex-col-reverse w-full h-full p-1'>
             <div className='flex items-center justify-start w-full h-full'><h1 className='text-[2rem] lg:p-2 xs:text-[2.7rem] s:text-5xl sm:text-[4rem] md:text-[5rem] lg:text-8xl xl:text-9xl 2xl:text-[154px] whitespace-nowrap font-black sm:leading-tight text-[#1A1A1A]'>MANTHON 2K23</h1></div>
-            <div className='hidden sm:flex items-start justify-end w-full h-full'><img src={star} alt="star" className='w-auto h-6 sm:h-8 mr-6'/></div>
+            <div className='hidden s:flex items-start justify-end w-full h-full'><img src={star} alt="star" className='w-auto h-4 sm:h-8 mr-6'/></div>
             </div>
             <div className='w-full h-full flex items-center justify-end p-1'>
             <div className='xs:flex items-center justify-center flex-row w-full sm:w-[75%] md:w-[65%] lg:w-[50%] sm:p-2 my-6'>

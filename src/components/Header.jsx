@@ -17,7 +17,7 @@ const Header = () => {
           <img
             src={logo}
             alt="codechef"
-            className="w-auto h-10 sm:h-12 lg:h-14"
+            className="w-auto h-11 sm:h-12 lg:h-14"
 
           />
         </div>
@@ -27,11 +27,11 @@ const Header = () => {
             className="navbar-burger flex items-center justify-center font-black"
             onClick={() => setNavbarOpen(!navbarOpen)}
           >
-            <div className="flex items-center justify-center p-1 object-scale-down">
+            <div className="flex items-center justify-center sm:p-1 object-scale-down">
               <img
                 src={burger}
                 alt="burger menu"
-                className="sm:w-8 sm:h-8 h-6 w-6"
+                className="h-8 sm:w-8 sm:h-8 w-8"
               />
             </div>
           </button>
