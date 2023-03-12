@@ -33,8 +33,8 @@ const HeroPage = () => {
               <div className="flex items-center justify-center bg-black group hover:bg-transparent transition duration-200 ease-in-out hover:border hover:border-black rounded-full md:max-w-[20%] lg::max-w-[15%] p-2 flex-1">
                 <button type="submit" className=" text-[#D5FF40] group-hover:text-black rounded-full text-xs font-black ">Register Now</button>
               </div>
-              <div className="flex items-center justify-center bg-transparent group rounded-full transition duration-200 cursor-pointer ease-in-out flex-1 md:max-w-[20%] lg:max-w-[15%] p-2 border hover:bg-black hover:border-none border-black">
-                <button type="submit" className=" text-black group-hover:text-[#d5ff40] cursor-pointer rounded-full text-xs font-black">Learn More</button>
+              <div className="flex items-center justify-center bg-transparent rounded-full transition duration-200 cursor-pointer ease-in-out flex-1 md:max-w-[20%] lg:max-w-[15%] p-2 border border-black">
+                <button type="submit" className=" text-black cursor-pointer rounded-full text-xs font-black">Learn More</button>
               </div>
               <div className="sm:flex hidden items-center justify-center flex-1 w-full h-0 border border-black"></div>
               <div className="hidden items-center justify-center sm:flex">
