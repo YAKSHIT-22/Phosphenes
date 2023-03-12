@@ -4,7 +4,7 @@ import vector from '../assets/Vector.svg';
 const Prizes = () => {
   return (
     <>
-      <section className="w-screen h-full bg-black">
+      <section className="w-screen h-full bg-black" id="prizes">
         <div className="w-full h-full flex items-center justify-center py-2 lg:py-6 lg:p-2">
           <div className="w-full h-full flex items-start justify-center flex-row lg:py-4 lg:p-2">
             <div className="w-full h-full flex items-start justify-start lg:w-[65%] flex-col p-6">

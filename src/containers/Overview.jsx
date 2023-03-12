@@ -4,13 +4,13 @@ import play from '../assets/play_2.svg'
 import star2 from '../assets/star2.svg'
 const Overview = () => {
   return (
-    <section className="w-screen h-full bg-[#D5FF40] flex items-center justify-center">
+    <section className="w-screen h-full bg-[#D5FF40] flex items-center justify-center" id="overview">
       <div className="w-full h-full flex items-center justify-center">
         <div className="w-full h-full flex items-center justify-center flex-col ">
                    <div className="flex items-center justify-center w-full h-full">
                            <div className="flex items-center w-full h-full justify-center p-1 sm:p-3 pb-0 sm:pb-0 relative">
                             <div className="flex items-center justify-center max-w-6xl xs:p-2 pb-0 sm:p-4 sm:pb-0">
-                            <div className="flex items-center max-w-6xl justify-center relative p-4 pb-0 xs:p-4 xs:pb-0 sm:p-6 sm:pb-0 mb-[5rem] s:mb-14 sm:mb-12 md:mb-10" >
+                            <div className="flex items-center max-w-6xl justify-center relative p-4 pb-0 xs:p-4 xs:pb-0 sm:p-6 lg:p-4 sm:pb-0 mb-[5rem] s:mb-14 sm:mb-12 md:mb-10 lg:mb-14" >
                                 <img src={bg} alt="bg" className="w-full h-full object-cover rounded-t-[44px] s:rounded-t-[56px] sm:rounded-t-[72px] md:rounded-t-[84px] lg:rounded-t-[112px]"/>
                                <div className="flex items-center justify-center absolute top-0 right-0"><img src={play} alt="play" className="motion-safe:animate-[spin_5s_ease-in-out_infinite] w-14 h-14  xs:h-16  xs:w-16 s:h-20 s:w-20  sm:w-24 sm:h-24 lg:w-28 lg:h-28 "/></div>
                                 </div>

@@ -10,7 +10,7 @@ import line from '../assets/Line.svg'
 
 const HeroPage = () => {
   return (
-    <section className="w-screen relative h-full bg-[#D5FF40] flex items-center justify-center flex-col">
+    <section className="w-screen relative h-full bg-[#D5FF40] flex items-center justify-center flex-col" id="home">
      <Header/>
      <div className="flex items-center justify-center py-8 md:px-2 lg:px-4 sm:px-4 w-full h-full ">
            <div className='flex items-center justify-center px-2 sm:px-4 md:px-2 lg:px-4 flex-col max-w-[95%] h-full py-4'>

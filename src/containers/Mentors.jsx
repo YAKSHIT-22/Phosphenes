@@ -2,7 +2,7 @@ import React from 'react'
 import prize from '../assets/prize.svg'
 const Mentors = () => {
   return (
-    <section className="w-screen h-full bg-black">
+    <section className="w-screen h-full bg-black" id="mentors">
     <div className="w-full h-full flex items-center justify-center py-4 lg:p-2">
       <div className="w-full h-full flex items-start justify-center flex-row py-2 lg:p-2">
         <div className="w-full h-full flex items-start justify-start lg:w-[65%] flex-col p-6">

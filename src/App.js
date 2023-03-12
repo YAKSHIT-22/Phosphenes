@@ -15,8 +15,8 @@ function App() {
     <AnimatedCursor 
       innerSize={8}
       outerSize={30}
-      color="0, 0, 0"
-      outerAlpha={0.2}
+      color="256, 256, 256"
+      outerAlpha={.2}
       innerScale={0.7}
       outerScale={3}
       clickables={[
