@@ -3,8 +3,8 @@ import prize from '../assets/prize.svg'
 const Prizes = () => {
   return (
     <section className="w-screen h-full bg-black">
-      <div className="w-full h-full flex items-center justify-center py-6 lg:py-6 lg:p-2">
-        <div className="w-full h-full flex items-start justify-center flex-row py-4 lg:py-4 lg:p-2">
+      <div className="w-full h-full flex items-center justify-center py-2 lg:py-6 lg:p-2">
+        <div className="w-full h-full flex items-start justify-center flex-row lg:py-4 lg:p-2">
           <div className="w-full h-full flex items-start justify-start lg:w-[65%] flex-col p-6">
           <div className="flex items-center justify-start">
           <h1 className='text-[2rem]  lg:p-2 xs:text-[2.7rem] s:text-5xl sm:text-[4rem] md:text-[5rem] lg:text-8xl xl:text-9xl 2xl:text-[154px] font-black sm:leading-tight text-[#ffffff]'>PRIZES <span className="text-[#d5FF40]">.</span></h1>
