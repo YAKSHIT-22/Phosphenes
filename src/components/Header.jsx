@@ -1,8 +1,7 @@
 import React from 'react'
-
 import { HashLink } from 'react-router-hash-link';
 import logo from '../assets/favicon.png'
-import burger from '../assets/menu.png'
+
 const Header = () => {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (

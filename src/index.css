@@ -437,7 +437,7 @@ body {
 }
 .swiper-wrapper{
 	display:flex;
-	align-items:center;
+	align-items:flex-start;
 }
 
 .blob{
