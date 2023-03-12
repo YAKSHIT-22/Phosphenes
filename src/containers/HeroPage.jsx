@@ -41,7 +41,7 @@ const HeroPage = () => {
                 <img src={circle} alt="circle" className="w-10 h-10"/>
               </div>
             </div>
-            <div className='flex sm:absolute items-center justify-end bottom-0 left-2 xl:left-4 sm:w-auto sm:h-auto w-full h-full'>
+            <div className='flex sm:absolute items-center justify-end bottom-0 right-2 xl:right-4 sm:w-auto sm:h-auto w-full h-full'>
              <div className="flex   gap-2 item-center justify-center flex-col">
         <div className="flex items-center justify-center rotate-[-90]">
           <img src={linkedin} alt="linkedin" className="w-4 h-4 sm:w-5 sm:h-5"/>

@@ -421,12 +421,12 @@
 
 @layer components{
 	body{
-		@apply font-monts
+		@apply font-monts overflow-x-hidden
 	}
 }
 
 body {
-	background-color: rgb(255, 255, 255);
+	background-color: black;
 }
 .scroll-remove::-webkit-scrollbar {
 	display: none;

@@ -7,6 +7,7 @@ import Overview from "./containers/Overview";
 import Prizes from "./containers/Prizes";
 import { BrowserRouter } from "react-router-dom";
 import React from "react";
+
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +18,7 @@ function App() {
     <Judges/>
     <OurTeam/>
     <Footer/>
+    
     </BrowserRouter>
    
   );
