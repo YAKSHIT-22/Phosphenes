@@ -20,9 +20,9 @@ const Footer = () => {
               <div className="flex items-center justify-center w-[85%] xs:w-full bg-black group hover:bg-transparent transition duration-200 ease-in-out hover:border hover:border-black rounded-full p-2 flex-1">
                 <button type="submit" className=" text-[#D5FF40] group-hover:text-black rounded-full text-[.5rem] xs:text-xs font-black ">Register Now</button>
               </div>
-              <div className="flex items-center justify-center w-[85%] xs:w-full bg-transparent rounded-full transition duration-200 cursor-pointer ease-in-out flex-1  p-2 border border-black">
-                <button type="submit" className=" text-black cursor-pointer rounded-full text-[.5rem] xs:text-xs  font-black">Learn More</button>
-              </div>
+              <a href="../assets/rulebook.pdf" download className="focus:none outline:none flex items-center justify-center w-[85%] xs:w-full bg-transparent group border border-black transition duration-200 ease-in-out  rounded-full p-2 flex-1">
+                <button type="submit" className=" text-black  rounded-full text-xs font-black">Rule Book</button>
+              </a>  
               </div>
             </div>
             <div className="flex items-center justify-center w-full my-6 s:my-8">

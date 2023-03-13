@@ -31,7 +31,7 @@ const OurTeam = () => {
                   <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
                 </div>
               </div>
-                <img src={person} alt="mentor" className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-full md:w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person} loading="lazy" alt="ourteam" className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-full md:w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
              <div className='flex items-center justify-center grid-cols-1 group overflow-hidden relative'>
              <div className='opacity-0 flex hover:opacity-100 inset-0 z-10 absolute bottom-0 items-center justify-center w-full h-full transition duration-300 ease-in-out'>
@@ -39,7 +39,7 @@ const OurTeam = () => {
                   <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
                 </div>
               </div>
-                <img src={person4} alt="mentor"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-full md:w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person4} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-full md:w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
              <div className='flex items-center justify-center grid-cols-1 group overflow-hidden relative'>
              <div className='opacity-0 flex hover:opacity-100 inset-0 z-10 absolute bottom-0 items-center justify-center w-full h-full transition duration-300 ease-in-out'>
@@ -47,7 +47,7 @@ const OurTeam = () => {
                   <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
                 </div>
               </div>
-                <img src={person5} alt="mentor"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-full md:w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person5} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-full md:w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
              <div className='flex items-center justify-center grid-cols-1 group overflow-hidden relative'>
              <div className='opacity-0 flex hover:opacity-100 inset-0 z-10 absolute bottom-0 items-center justify-center w-full h-full transition duration-300 ease-in-out'>
@@ -55,7 +55,7 @@ const OurTeam = () => {
                   <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
                 </div>
               </div>
-                <img src={person3} alt="mentor"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-full md:w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person3} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-full md:w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
              <div className='flex items-center justify-center grid-cols-1 group overflow-hidden relative'>
              <div className='opacity-0 flex hover:opacity-100 inset-0 z-10 absolute bottom-0 items-center justify-center w-full h-full transition duration-300 ease-in-out'>
@@ -63,7 +63,7 @@ const OurTeam = () => {
                   <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
                 </div>
               </div>
-                <img src={person2} alt="mentor"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-full md:w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person2} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-full md:w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
              <div className='flex items-center justify-center grid-cols-1 group overflow-hidden relative'>
              <div className='opacity-0 flex hover:opacity-100 inset-0 z-10 absolute bottom-0 items-center justify-center w-full h-full transition duration-300 ease-in-out'>
@@ -71,7 +71,7 @@ const OurTeam = () => {
                   <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
                 </div>
               </div>
-                <img src={person1} alt="mentor"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-full md:w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person1} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-full md:w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
         </div>
 
@@ -108,7 +108,7 @@ const OurTeam = () => {
                   <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
                 </div>
               </div>
-                <img src={person2} alt="mentor" className="h-full w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person2}  loading="lazy" alt="ourteam" className="h-full w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
       </SwiperSlide>
       <SwiperSlide className="s:p-4 xs:p-7 p-4 flex items-center justify-center ">
@@ -118,7 +118,7 @@ const OurTeam = () => {
                   <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
                 </div>
               </div>
-                <img src={person4} alt="mentor" className="h-full w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person4} loading="lazy" alt="ourteam" className="h-full w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
       </SwiperSlide>
       <SwiperSlide className="s:p-4 xs:p-7 p-4 flex items-center justify-center ">
@@ -128,7 +128,7 @@ const OurTeam = () => {
                   <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
                 </div>
               </div>
-                <img src={person3} alt="mentor" className="h-full w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person3} loading="lazy" alt="ourteam" className="h-full w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
       </SwiperSlide>
       <SwiperSlide className="s:p-4 xs:p-7 p-4 flex items-center justify-center ">
@@ -138,7 +138,7 @@ const OurTeam = () => {
                   <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
                 </div>
               </div>
-                <img src={person2} alt="mentor" className="h-full w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person2} loading="lazy" alt="ourteam" className="h-full w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
       </SwiperSlide>
       <SwiperSlide className="s:p-4 xs:p-7 p-4 flex items-center justify-center ">
@@ -148,7 +148,7 @@ const OurTeam = () => {
                   <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
                 </div>
               </div>
-                <img src={person1} alt="mentor" className="w-full h-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person1} loading="lazy" alt="ourteam" className="w-full h-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
       </SwiperSlide>
       <SwiperSlide className="s:p-4 xs:p-7 p-4 flex items-center justify-center ">
@@ -158,7 +158,7 @@ const OurTeam = () => {
                   <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
                 </div>
               </div>
-                <img src={person5} alt="mentor" className="w-full h-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person5} loading="lazy" alt="ourteam" className="w-full h-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
       </SwiperSlide>
       

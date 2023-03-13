@@ -11,7 +11,7 @@ const Overview = () => {
                            <div className="flex items-center w-full h-full justify-center p-1 sm:p-3 pb-0 sm:pb-0 relative">
                             <div className="flex items-center justify-center max-w-6xl xs:p-2 pb-0 sm:p-4 sm:pb-0">
                             <div className="flex items-center max-w-6xl justify-center relative p-4 pb-0 xs:p-4 xs:pb-0 sm:p-4 md:p-6 sm:pb-0 mb-[5rem]  lg:mb-14" >
-                                <img src={bg} alt="bg" className="w-full h-full object-cover rounded-t-[42px] s:rounded-t-[54px] sm:rounded-t-[72px]  lg:rounded-t-[112px]"/>
+                                <img src={bg} alt="bg" loading="lazy" className="w-full h-full object-cover rounded-t-[42px] s:rounded-t-[54px] sm:rounded-t-[72px]  lg:rounded-t-[112px]"/>
                                <div className="flex items-center justify-center absolute xs:top-0 top-1 right-1 xs:right-0"><img src={play} alt="play" className="motion-safe:animate-[spin_5s_ease-in-out_infinite] w-12 h-12  xs:h-16  xs:w-16 s:h-20 s:w-20  sm:w-24 sm:h-24 lg:w-28 lg:h-28 "/></div>
                                 </div>
                                 </div>

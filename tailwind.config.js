@@ -38,7 +38,7 @@ module.exports = {
 			 
 		},
 		backgroundImage:{
-			'video': "url('assets/videobg.svg')",
+			'video': "url('assets/video.gif')",
 		}
 	},
 	plugins: [

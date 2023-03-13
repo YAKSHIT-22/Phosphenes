@@ -1,6 +1,12 @@
 import React from "react";
 import prize from "../assets/prize.svg";
-import vector from '../assets/Vector.svg';
+import vector from "../assets/Vector.svg";
+import star2 from '../assets/star2.svg'
+import cbs from '../assets/cbs.png';
+import gmc from '../assets/gmc.png';
+import selle from '../assets/selle.png';
+import vardiano from '../assets/vardiano.png';
+import ccsc from '../assets/favicon.png';
 const Prizes = () => {
   return (
     <>
@@ -15,35 +21,35 @@ const Prizes = () => {
               </div>
               <div className="xs:flex items-center justify-center flex-row w-full md:w-[75%] lg:w-full  my-6">
                 <p className="font-normal text-xs text-white sm:text-sm lg:text-lg ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                  vulputate libero et velit interdum, ac aliquet odio mattis.
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos.
+                  Prize pool of 2.5lacs which will include: • Prize money 1lac •
+                  Goodies worth 1.2lac Each participant will get premium goodies
+                  and merch. Venue - Galileo block, Date - 23/24.
+                  Theme will be: Bollywood, Coding, Trading, Buying and selling, Coding and Virtual Wars.
                 </p>
               </div>
-              <div className="flex items-center justify-start w-full flex-col max-w-3xl lg:w-full">
+              <div className="flex items-center justify-start w-full flex-col max-w-4xl lg:w-full">
                 <div className="flex items-center justify-between w-full flex-row border-t-2 border-white border-b-2 px-1 py-6">
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    1ST
+                    Prize Pool
                   </h1>
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    $100000
+                    2.5Lakh
                   </h1>
                 </div>
                 <div className="flex items-center justify-between w-full flex-row border-white px-1 py-6">
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    2ND
+                    Prize Money
                   </h1>
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    $75000
+                    1Lakh
                   </h1>
                 </div>
                 <div className="flex items-center justify-between w-full flex-row border-t-2 border-white border-b-2 px-1 py-6">
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    3RD
+                    Goodies
                   </h1>
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    $50000
+                    2.5Lakh
                   </h1>
                 </div>
               </div>
@@ -54,10 +60,10 @@ const Prizes = () => {
               </div>
               <div className="flex items-center justify-center flex-row w-full sm:p-2 my-6">
                 <p className="font-normal text-xs text-white sm:text-sm lg:text-lg ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                  vulputate libero et velit interdum, ac aliquet odio mattis.
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos.
+                  It will be a 24 hr event. Team of 5 will be made having two 3
+                  Chitkara Business School students and 2 CSE students. Teams
+                  will be formed by organising team and will be assigned one
+                  nation, and will manage each nation.
                 </p>
               </div>
             </div>
@@ -77,12 +83,48 @@ const Prizes = () => {
                   PLACE AND AT THE RIGHT{" "}
                   <span className="text-[#d5FF40]">TIME .</span>
                 </p>
-                <img src={vector} alt="vector" className="absolute top-0 left-0 w-8 h-8 sm:h-14 sm:w-14"/>
-                <img src={vector} alt="vector" className="absolute bottom-0 right-0 w-8 h-8 sm:h-14 sm:w-14"/>
+                <img
+                  src={vector}
+                  alt="vector"
+                  className="absolute top-0 left-0 w-8 h-8 sm:h-14 sm:w-14"
+                />
+                <img
+                  src={vector}
+                  alt="vector"
+                  className="absolute bottom-0 right-0 w-8 h-8 sm:h-14 sm:w-14"
+                />
               </div>
             </div>
           </div>
         </div>
+      </section>
+      <section className="w-screen h-full overflow-hidden relative bg-black">
+      <div className="md:h-screen h-full flex items-center justify-center w-full ">
+                           <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 w-full h-full flex items-center justify-center"><div className="flex items-center justify-center gap-12 w-full h-full">
+                            <div className="flex items-center w-full h-full justify-center bg-[#d5ff40] rounded-md p-4"> <img src={ccsc} alt="ccsc" className="h-24 w-auto"/> </div>
+                            
+                            <div className="flex items-center  w-full h-full justify-center bg-[#d5ff40] rounded-md p-4"> <img src={cbs} alt="cbs" className="h-24 w-auto"/> </div>
+                            
+                            <div className="flex items-center  w-full h-full justify-center bg-[#d5ff40] rounded-md p-4"> <img src={vardiano} className="h-24 w-auto" alt="vardiano"/> </div>
+                            
+                            <div className="flex items-center  w-full h-full justify-center bg-[#d5ff40] rounded-md p-4"> <img src={selle} className="h-24 w-auto" alt="selle"/> </div>
+                            
+                            <div className="flex items-center  w-full h-full justify-center bg-[#d5ff40] rounded-md p-4"> <img src={gmc} className="h-24 w-auto" alt="gmc"/> </div>
+                            </div></marquee></div>
+                   </div>
+      <div className="h-screen hidden md:flex items-center justify-center absolute top-0 bottom-0 left-0 right-0  w-full ">
+                           <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[45deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#d5ff40] font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2"/> BUILD YOUR IDEAS</h1></marquee></div>
+                   </div>
+      <div className="h-screen hidden md:flex items-center justify-center w-full absolute top-0 bottom-0 left-0 right-0 ">
+                           <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[-45deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#d5ff40] font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2"/> BUILD YOUR IDEAS</h1></marquee></div>
+                   </div>
+      <div className="h-screen hidden md:flex items-center justify-center w-full absolute top-0 bottom-0 left-0 right-0 ">
+                           <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[-135deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#d5ff40] font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2"/> BUILD YOUR IDEAS</h1></marquee></div>
+                   </div>
+      <div className="h-screen hidden md:flex items-center justify-center w-full absolute top-0 bottom-0 left-0 right-0 ">
+                           <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 rotate-[135deg] w-full h-full"><h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#d5ff40] font-black">DESIGN YOUR IDEAS <img className='w-8 h-8' src={star2} alt="star2"/> BUILD YOUR IDEAS</h1></marquee></div>
+                   </div>
+      
       </section>
     </>
   );
