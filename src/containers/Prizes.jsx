@@ -99,7 +99,7 @@ const Prizes = () => {
         </div>
       </section>
       <section className="w-screen h-full overflow-hidden relative bg-black">
-      <div className="md:h-screen h-full flex items-center justify-center w-full ">
+      <div className="md:h-screen h-full flex items-center justify-center w-full z-[10]">
                            <div className="flex w-full h-full items-center  justify-center py-0 sm:py-2 md:py-4 lg:py-6"><marquee className="py-10 xs:py-12 w-full h-full flex items-center justify-center"><div className="flex items-center justify-center gap-12 w-full h-full">
                             <div className="flex items-center w-full h-full justify-center bg-[#d5ff40] rounded-md p-4"> <img src={ccsc} alt="ccsc" className="h-24 w-auto"/> </div>
                             

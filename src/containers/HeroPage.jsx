@@ -10,6 +10,7 @@ import line from '../assets/Line.svg'
 import { IoCloseOutline } from "react-icons/io5";
 import { BiLoaderAlt } from "react-icons/bi";
 import video from '../assets/render.mp4'
+import pdf from '../assets/rulebook.pdf'
 const HeroPage = () => {
   const [modal, setModal] = useState(false);
   const [videoLoading, setVideoLoading] = useState(true);
@@ -46,7 +47,7 @@ const HeroPage = () => {
               <div className="flex items-center justify-center bg-black group hover:bg-transparent transition duration-200 ease-in-out hover:border hover:border-black rounded-full md:max-w-[20%] lg::max-w-[15%] p-2 flex-1">
                 <button type="submit" className=" text-[#D5FF40] group-hover:text-black rounded-full text-xs font-black ">Register Now</button>
               </div>
-          <a href="../assets/rulebook.pdf" download className="focus:none outline:none flex items-center justify-center bg-transparent rounded-full transition duration-200 ease-in-out flex-1 md:max-w-[20%] lg:max-w-[15%] p-2 border border-black">
+          <a href={pdf} download="rulebook" className="focus:none outline:none flex items-center justify-center bg-transparent rounded-full transition duration-200 ease-in-out flex-1 md:max-w-[20%] lg:max-w-[15%] p-2 border border-black">
                 <button type="submit" className=" text-black  rounded-full text-xs font-black">Rule Book</button>
               </a>   
               <div className="sm:flex hidden items-center justify-center flex-1 w-full h-0 border border-black"></div>
