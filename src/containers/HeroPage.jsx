@@ -96,6 +96,7 @@ const HeroPage = () => {
                     loading="lazy"
                     src={video}
                     autoPlay
+                    loop
                   ></video>
                 </div>
               </div>
