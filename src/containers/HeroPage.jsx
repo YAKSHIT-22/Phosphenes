@@ -29,17 +29,17 @@ const HeroPage = () => {
      <Header/>
      <div className="flex items-center justify-center py-8 md:px-2 lg:px-4 sm:px-4 w-full h-full ">
            <div className='flex items-center justify-center px-2 sm:px-4 md:px-2 lg:px-4 flex-col max-w-[95%] h-full py-4'>
-            <div className='flex items-center justify-start flex-row w-full my-2 h-full sm:p-0 p-1 md:p-1'>
+            <div className='flex items-center justify-start flex-row w-full my-2 h-full sm:p-0 s:p-1 md:p-1'>
              <div className='flex items-center justify-start w-full'><h1 className='text-[2rem]  lg:p-2 xs:text-[2.8rem] s:text-5xl sm:text-[4rem] md:text-[5rem] lg:text-8xl xl:text-9xl 2xl:text-[154px] font-black sm:leading-tight text-[#1A1A1A]'>PHOSPHENES</h1></div>
             </div>
-            <div className='flex items-center justify-start flex-col w-full h-full sm:p-0 p-1 md:p-1 gap-2'>
-            <div className='flex items-center justify-start w-full h-full'><h1 className='text-2xl lg:p-2 xs:text-[2.1rem]  s:text-4xl sm:text-5xl md:text-6xl lg:text-7xl  whitespace-nowrap font-black sm:leading-tight text-[#1A1A1A]'>CODE | WAR | TRADE</h1></div>
-            <div className='flex items-start justify-end w-full h-full'><img src={star} loading="lazy" alt="star" className='w-auto h-6 sm:h-8 mr-6'/></div>
+            <div className='flex items-center justify-start flex-col w-full h-full sm:p-0 s:p-1 md:p-1 gap-2'>
+            <div className='flex items-center justify-start w-full h-full'><h1 className='text-2xl lg:p-2 xs:text-[2rem]  s:text-4xl sm:text-5xl md:text-6xl lg:text-7xl  whitespace-nowrap font-black sm:leading-tight text-[#1A1A1A]'>CODE | WAR | TRADE</h1></div>
+            <div className='flex items-start justify-end w-full h-full'><img src={star} loading="lazy" alt="star" className='w-auto h-6 sm:h-8 md:mr-6'/></div>
             </div>
-            <div className='w-full h-full flex items-center justify-end sm:p-0 p-1 md:p-1'>
+            <div className='w-full h-full flex items-center justify-end sm:p-0 s:p-1 md:p-1'>
             <div className='flex items-center justify-center flex-col md:flex-row w-full p-1  gap-6 sm:p-2 my-6'>
             
-              <p className='font-normal text-[0.5rem] s:text-xs sm:text-sm lg:text-lg md:w-[50%]'>Phosphenes Is The Codechef Student Chapter's Annual Flagship Event, With A Huge Prize Pool And Biggest Fun Opportunity For The Students To Collaborate And Participate At Interdepartment Level. The Focus Of The Event Is On Capital Trading, Resource Management And One On One Coding Battles. The Event Is Jam-Packed With Entertaining Activities, Engaging Sessions And Engaging Games.</p>
+              <p className='font-normal text-[0.7rem] xs:text-xs sm:text-sm lg:text-lg md:w-[50%]'>Phosphenes Is The Codechef Student Chapter's Annual Flagship Event, With A Huge Prize Pool And Biggest Fun Opportunity For The Students To Collaborate And Participate At Interdepartment Level. The Focus Of The Event Is On Capital Trading, Resource Management And One On One Coding Battles. The Event Is Jam-Packed With Entertaining Activities, Engaging Sessions And Engaging Games.</p>
               <div className='flex items-center justify-center flex-col flex-1 gap-2 w-full h-full xs:p-2 xl:p-0'><div className='bg-red rounded-full p-4 h-12 xs:h-14 s:h-16 md:h-20 lg:h-24 flex items-center justify-start bg-video bg-cover bg-center bg-no-repeat w-full'><img src={play} loading="lazy" alt="play" onClick={openModal} className='w-auto h-8 xs:h-10  sm:h-12 md:h-14 lg:h-16'/></div>
              </div>        
               </div>

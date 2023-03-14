@@ -30,10 +30,10 @@ const Prizes = () => {
               </div>
               <div className="xs:flex items-center justify-center flex-row w-full md:w-[75%] lg:w-full  my-6">
                 <p className="font-normal text-xs text-white sm:text-sm lg:text-lg ">
-                  Prize pool of 2.5lacs which will include: • Prize money 1lac •
+                  Prize pool of 2.2lacs which will include: • Prize money 1lac •
                   Goodies worth 1.2lac Each participant will get premium goodies
-                  and merch. Venue - Galileo block, Date - 23/24.
-                  Theme will be: Bollywood, Coding, Trading, Buying and selling, Coding and Virtual Wars.
+                  and merch. Venue - Galileo block, Date - 23/24 March 2023.
+                  
                 </p>
               </div>
               <div className="flex items-center justify-start w-full flex-col max-w-4xl lg:w-full">
@@ -42,7 +42,7 @@ const Prizes = () => {
                     Prize Pool
                   </h1>
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    2.5Lakh
+                    2.2Lakh
                   </h1>
                 </div>
                 <div className="flex items-center justify-between w-full flex-row border-white px-1 py-6">
@@ -58,7 +58,7 @@ const Prizes = () => {
                     Goodies
                   </h1>
                   <h1 className="flex items-center justify-center gap-4 text-2xl xs:text-3xl s:text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#ffffff] font-black">
-                    2.5Lakh
+                    1.2Lakh
                   </h1>
                 </div>
               </div>

@@ -1,7 +1,5 @@
 import Footer from "./components/Footer";
 import HeroPage from "./containers/HeroPage";
-import Judges from "./containers/Judges";
-import Mentors from "./containers/Mentors";
 import OurTeam from "./containers/OurTeam";
 import Overview from "./containers/Overview";
 import Prizes from "./containers/Prizes";
@@ -9,6 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 import React from "react";
 import AnimatedCursor from "react-animated-cursor";
 import star2 from './assets/star2.svg'
+import Socials from "./containers/Socials";
 function App() {
   const [loading, setLoading] = React.useState(true);
   React.useEffect(() => {
@@ -57,11 +56,9 @@ function App() {
      <HeroPage/>
     <Overview/>
     <Prizes/>
-    <Mentors/>
-    <Judges/>
     <OurTeam/>
+    <Socials/>
     <Footer/>
-    
     </BrowserRouter>)}
    
    </>

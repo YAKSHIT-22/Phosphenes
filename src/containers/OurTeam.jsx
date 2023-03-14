@@ -22,56 +22,26 @@ const OurTeam = () => {
       <div className="w-full h-full flex items-start justify-center flex-row py-2 lg:p-2">
         <div className="w-full h-full flex items-start justify-start flex-col p-6">
         <div className="flex items-center justify-start">
-        <h1 className='text-[2rem]  xs:text-[2.7rem] s:text-5xl sm:text-[4rem] md:text-[5rem] lg:text-8xl xl:text-9xl 2xl:text-[154px] font-black sm:leading-tight text-[#ffffff] whitespace-nowrap'>OUR TEAM <span className="text-[#d5FF40]">.</span></h1>
+        <h1 className='text-[2rem]  xs:text-[2.7rem] s:text-5xl sm:text-[4rem] md:text-[5rem] lg:text-8xl xl:text-9xl 2xl:text-[154px] font-black sm:leading-tight text-[#ffffff] whitespace-nowrap'>PAST EVENTS <span className="text-[#d5FF40]">.</span></h1>
         </div>
         <div className='hidden md:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 items-center justify-center w-full py-8 my-6'>
              <div className='flex items-center justify-center grid-cols-1 group overflow-hidden relative'>
-             <div className='opacity-0 flex hover:opacity-100 inset-0 z-10 absolute bottom-0 items-center justify-center w-full h-full transition duration-300 ease-in-out'>
-                <div className='flex items-end justify-center w-full h-full bg-black/30 bg-opacity-50 transition duration-300 ease-in-out'>
-                  <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
-                </div>
-              </div>
-                <img src={person} loading="lazy" alt="ourteam" className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-full md:w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person} loading="lazy" alt="ourteam" className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-[24rem] md:w-auto group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
              <div className='flex items-center justify-center grid-cols-1 group overflow-hidden relative'>
-             <div className='opacity-0 flex hover:opacity-100 inset-0 z-10 absolute bottom-0 items-center justify-center w-full h-full transition duration-300 ease-in-out'>
-                <div className='flex items-end justify-center w-full h-full bg-black/30 bg-opacity-50 transition duration-300 ease-in-out'>
-                  <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
-                </div>
-              </div>
-                <img src={person4} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-full md:w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person4} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-[24rem] md:w-auto group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
              <div className='flex items-center justify-center grid-cols-1 group overflow-hidden relative'>
-             <div className='opacity-0 flex hover:opacity-100 inset-0 z-10 absolute bottom-0 items-center justify-center w-full h-full transition duration-300 ease-in-out'>
-                <div className='flex items-end justify-center w-full h-full bg-black/30 bg-opacity-50 transition duration-300 ease-in-out'>
-                  <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
-                </div>
-              </div>
-                <img src={person5} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-full md:w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person5} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-[24rem] md:w-auto group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
              <div className='flex items-center justify-center grid-cols-1 group overflow-hidden relative'>
-             <div className='opacity-0 flex hover:opacity-100 inset-0 z-10 absolute bottom-0 items-center justify-center w-full h-full transition duration-300 ease-in-out'>
-                <div className='flex items-end justify-center w-full h-full bg-black/30 bg-opacity-50 transition duration-300 ease-in-out'>
-                  <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
-                </div>
-              </div>
-                <img src={person3} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-full md:w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person3} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-[24rem] md:w-auto group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
              <div className='flex items-center justify-center grid-cols-1 group overflow-hidden relative'>
-             <div className='opacity-0 flex hover:opacity-100 inset-0 z-10 absolute bottom-0 items-center justify-center w-full h-full transition duration-300 ease-in-out'>
-                <div className='flex items-end justify-center w-full h-full bg-black/30 bg-opacity-50 transition duration-300 ease-in-out'>
-                  <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
-                </div>
-              </div>
-                <img src={person2} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-full md:w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person2} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-[24rem] md:w-auto group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
              <div className='flex items-center justify-center grid-cols-1 group overflow-hidden relative'>
-             <div className='opacity-0 flex hover:opacity-100 inset-0 z-10 absolute bottom-0 items-center justify-center w-full h-full transition duration-300 ease-in-out'>
-                <div className='flex items-end justify-center w-full h-full bg-black/30 bg-opacity-50 transition duration-300 ease-in-out'>
-                  <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
-                </div>
-              </div>
-                <img src={person1} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-full md:w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
+                <img src={person1} loading="lazy" alt="ourteam"  className="xl:h-[40rem] h-[25rem] w-[20rem] md:h-[24rem] md:w-auto group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
         </div>
 
@@ -93,71 +63,36 @@ const OurTeam = () => {
           slidesPerView: 2,
           spaceBetween: 0,
         },
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 30,
-        },
-        
       }}
     >
       
       <SwiperSlide className="s:p-4 xs:p-7 p-4 flex items-center justify-start">
       <div className='flex items-center justify-center grid-cols-1 h-[28rem]  w-auto group overflow-hidden relative'>
-             <div className='opacity-0 flex hover:opacity-100 inset-0 z-10 absolute bottom-0 items-center justify-center w-full h-full transition duration-300 ease-in-out'>
-                <div className='flex items-end justify-center w-full h-full bg-black/30 bg-opacity-50 transition duration-300 ease-in-out'>
-                  <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
-                </div>
-              </div>
                 <img src={person2}  loading="lazy" alt="ourteam" className="h-full w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
       </SwiperSlide>
       <SwiperSlide className="s:p-4 xs:p-7 p-4 flex items-center justify-center ">
       <div className='flex items-center justify-center grid-cols-1 h-[28rem]  w-auto group overflow-hidden relative'>
-             <div className='opacity-0 flex hover:opacity-100 inset-0 z-10 absolute bottom-0 items-center justify-center w-full h-full transition duration-300 ease-in-out'>
-                <div className='flex items-end justify-center w-full h-full bg-black/30 bg-opacity-50 transition duration-300 ease-in-out'>
-                  <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
-                </div>
-              </div>
                 <img src={person4} loading="lazy" alt="ourteam" className="h-full w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
       </SwiperSlide>
       <SwiperSlide className="s:p-4 xs:p-7 p-4 flex items-center justify-center ">
       <div className='flex items-center justify-center grid-cols-1 group overflow-hidden h-[28rem]  w-auto relative'>
-             <div className='opacity-0 flex hover:opacity-100 inset-0 z-10 absolute bottom-0 items-center justify-center w-full h-full transition duration-300 ease-in-out'>
-                <div className='flex items-end justify-center w-full h-full bg-black/30 bg-opacity-50 transition duration-300 ease-in-out'>
-                  <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
-                </div>
-              </div>
                 <img src={person3} loading="lazy" alt="ourteam" className="h-full w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
       </SwiperSlide>
       <SwiperSlide className="s:p-4 xs:p-7 p-4 flex items-center justify-center ">
       <div className='flex items-center justify-center grid-cols-1 group overflow-hidden h-[28rem]  w-auto relative'>
-             <div className='opacity-0 flex hover:opacity-100 inset-0 z-10 absolute bottom-0 items-center justify-center w-full h-full transition duration-300 ease-in-out'>
-                <div className='flex items-end justify-center w-full h-full bg-black/30 bg-opacity-50 transition duration-300 ease-in-out'>
-                  <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
-                </div>
-              </div>
                 <img src={person2} loading="lazy" alt="ourteam" className="h-full w-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
       </SwiperSlide>
       <SwiperSlide className="s:p-4 xs:p-7 p-4 flex items-center justify-center ">
       <div className='flex items-center justify-center grid-cols-1 h-[28rem] w-auto group overflow-hidden relative'>
-             <div className='opacity-0 flex hover:opacity-100 inset-0 z-10 absolute bottom-0 items-center justify-center w-full h-full transition duration-300 ease-in-out'>
-                <div className='flex items-end justify-center w-full h-full bg-black/30 bg-opacity-50 transition duration-300 ease-in-out'>
-                  <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
-                </div>
-              </div>
                 <img src={person1} loading="lazy" alt="ourteam" className="w-full h-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
       </SwiperSlide>
       <SwiperSlide className="s:p-4 xs:p-7 p-4 flex items-center justify-center ">
       <div className='flex items-center justify-center grid-cols-1 h-[28rem] w-auto group overflow-hidden relative'>
-             <div className='opacity-0 flex hover:opacity-100 inset-0 z-10 absolute bottom-0 items-center justify-center w-full h-full transition duration-300 ease-in-out'>
-                <div className='flex items-end justify-center w-full h-full bg-black/30 bg-opacity-50 transition duration-300 ease-in-out'>
-                  <h1 className='text-xl w-full p-4 font-black text-[#000000] text-center bg-[#d5FF40]'>YAKSHIT GARG</h1>
-                </div>
-              </div>
                 <img src={person5} loading="lazy" alt="ourteam" className="w-full h-full group-hover:scale-[1.2] transition duration-300 ease-in-out"/>
              </div>
       </SwiperSlide>
