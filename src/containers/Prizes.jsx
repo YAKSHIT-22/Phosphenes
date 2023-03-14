@@ -1,5 +1,5 @@
 import React from "react";
-import prize from "../assets/prize.svg";
+import prize from "../assets/poster.jpeg";
 import vector from "../assets/Vector.svg";
 import star2 from '../assets/star2.svg'
 import cbs from '../assets/cbs.png';
@@ -64,8 +64,8 @@ const Prizes = () => {
               </div>
             </div>
             <div className="lg:flex hidden items-center justify-start w-[35%] flex-col p-4">
-              <div className="flex items-center justify-center p-2">
-                <img src={prize} alt="prize" className="h-80 w-80" />
+              <div className="flex items-center justify-center p-2 rounded-tl-[3.5rem] ">
+                <img src={prize} alt="prize" className="h-80 w-80 rounded-tl-[3.5rem] shadow-[-10px_-10px_0px_0px_rgba(213,255,64)]" />
               </div>
               <div className="flex items-center justify-center flex-row w-full sm:p-2 my-6">
                 <p className="font-normal text-xs text-white sm:text-sm lg:text-lg ">

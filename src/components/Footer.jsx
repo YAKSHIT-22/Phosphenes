@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../assets/favicon.png";
 import line from "../assets/line2.svg";
 import pdf from '../assets/rulebook.pdf'
+import {Link} from 'react-router-dom'
 const Footer = () => {
   return (
     <section className="w-screen h-full">
@@ -18,9 +19,9 @@ const Footer = () => {
                 </h1>
               </div>
               <div className="flex items-center justify-center flex-row gap-4 md:mb-12 py-2 my-2 xs:my-6 w-full xs:w-[95%] sm:w-[75%] lg:w-[50%]">
-              <div className="flex items-center justify-center w-[85%] xs:w-full bg-black group hover:bg-transparent transition duration-200 ease-in-out hover:border hover:border-black rounded-full p-2 flex-1">
+               <Link to="https://forms.gle/V73pXU1xmP2JdNibA" className="flex items-center justify-center w-[85%] xs:w-full bg-black group hover:bg-transparent transition duration-200 ease-in-out hover:border hover:border-black rounded-full p-2 flex-1">
                 <button type="submit" className=" text-[#D5FF40] group-hover:text-black rounded-full text-[.5rem] xs:text-xs font-black ">Register Now</button>
-              </div>
+              </Link>
               <a href={pdf} download="rulebook" className="focus:none outline:none flex items-center justify-center w-[85%] xs:w-full bg-transparent group border border-black transition duration-200 ease-in-out  rounded-full p-2 flex-1">
                 <button type="submit" className=" text-black  rounded-full text-xs font-black">Rule Book</button>
               </a>  
