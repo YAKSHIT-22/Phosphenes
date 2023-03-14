@@ -549,17 +549,18 @@ body {
 		  }
 		  
 		  .modal__spinner {
-			animation: spin 2s linear infinite;
+			
 			font-size: 40px;
 			color: #1b6aae;
+			transform-origin: center;
 		  }
 		  
 		  @keyframes spin {
 			0% {
-			  transform: rotate(0deg);
+			  transform: rotate3d(0deg);
 			}
 			100% {
-			  transform: rotate(360deg);
+			  transform: rotate3d(360deg);
 			}
 		  }
 		  

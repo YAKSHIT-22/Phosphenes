@@ -83,9 +83,9 @@ const HeroPage = () => {
                 />
                 <div className="modal__video-align">
                   {videoLoading ? (
-                    <div className="modal__spinner">
+                    <div className="modal__spinner ">
                       <BiLoaderAlt
-                        className="modal__spinner-style"
+                        className="modal__spinner-style animate-spin"
                         fadein="none"
                       />
                     </div>
