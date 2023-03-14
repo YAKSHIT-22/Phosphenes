@@ -22,7 +22,7 @@ const OurTeam = () => {
       <div className="w-full h-full flex items-start justify-center flex-row py-2 lg:p-2">
         <div className="w-full h-full flex items-start justify-start flex-col p-6">
         <div className="flex items-center justify-start">
-        <h1 className='text-[2rem]  xs:text-[2.7rem] s:text-5xl sm:text-[4rem] md:text-[5rem] lg:text-8xl xl:text-9xl 2xl:text-[154px] font-black sm:leading-tight text-[#ffffff] whitespace-nowrap'>PAST EVENTS <span className="text-[#d5FF40]">.</span></h1>
+        <h1 className='text-[2rem]  xs:text-[2.7rem] s:text-6xl sm:text-[4rem] md:text-[5rem] lg:text-8xl xl:text-9xl 2xl:text-[154px] font-black sm:leading-tight text-[#ffffff] whitespace-nowrap'>PAST EVENTS <span className="text-[#d5FF40]">.</span></h1>
         </div>
         <div className='hidden md:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 items-center justify-center w-full py-8 my-6'>
              <div className='flex items-center justify-center grid-cols-1 group overflow-hidden relative'>

@@ -30,7 +30,7 @@ const HeroPage = () => {
      <div className="flex items-center justify-center py-8 md:px-2 lg:px-4 sm:px-4 w-full h-full ">
            <div className='flex items-center justify-center px-2 sm:px-4 md:px-2 lg:px-4 flex-col max-w-[95%] h-full py-4'>
             <div className='flex items-center justify-start flex-row w-full my-2 h-full sm:p-0 s:p-1 md:p-1'>
-             <div className='flex items-center justify-start w-full'><h1 className='text-[2rem]  lg:p-2 xs:text-[2.8rem] s:text-5xl sm:text-[4rem] md:text-[5rem] lg:text-8xl xl:text-9xl 2xl:text-[154px] font-black sm:leading-tight text-[#1A1A1A]'>PHOSPHENES</h1></div>
+             <div className='flex items-center justify-start w-full'><h1 className='text-[2.1rem]  lg:p-2 xs:text-[2.8rem] s:text-5xl sm:text-[4rem] md:text-[5rem] lg:text-8xl xl:text-9xl 2xl:text-[154px] font-black sm:leading-tight text-[#1A1A1A]'>PHOSPHENES</h1></div>
             </div>
             <div className='flex items-center justify-start flex-col w-full h-full sm:p-0 s:p-1 md:p-1 gap-2'>
             <div className='flex items-center justify-start w-full h-full'><h1 className='text-2xl lg:p-2 xs:text-[2rem]  s:text-4xl sm:text-5xl md:text-6xl lg:text-7xl  whitespace-nowrap font-black sm:leading-tight text-[#1A1A1A]'>CODE | WAR | TRADE</h1></div>
