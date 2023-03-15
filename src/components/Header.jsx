@@ -64,32 +64,24 @@ const Header = () => {
                 Prizes
               </div>
             </HashLink>
-            <HashLink
-            smooth
-              to="/#mentors"
-              
-            >
-              {" "}
-              <div className="flex item-center font-black text-sm justify-center cursor-pointer">
-                Mentors
-              </div>
-            </HashLink>
-            <HashLink
-            smooth
-              to="/#judges"
-              
-            >
-              <div className="flex item-center font-black text-sm justify-center cursor-pointer">
-                Judges
-              </div>
-            </HashLink>
+            
+            
             <HashLink
             smooth
               to="/#team"
               
             >
               <div className="flex item-center font-black text-sm justify-center cursor-pointer">
-                Our Team
+                Past Events
+              </div>
+            </HashLink>
+            <HashLink
+            smooth
+              to="/#socials"
+              
+            >
+              <div className="flex item-center font-black text-sm justify-center cursor-pointer">
+                Socials
               </div>
             </HashLink>
           </div>
@@ -157,32 +149,23 @@ const Header = () => {
                 Prizes
               </div>
             </HashLink>
-            <HashLink
-            smooth
-              to="/#mentors"
-              
-            >
-              {" "}
-              <div className="flex item-center font-black text-sm justify-center cursor-pointer">
-                Mentors
-              </div>
-            </HashLink>
-            <HashLink
-            smooth
-              to="/#judges"
-              
-            >
-              <div className="flex item-center font-black text-sm justify-center cursor-pointer">
-                Judges
-              </div>
-            </HashLink>
+            
             <HashLink
             smooth
               to="/#team"
               
             >
               <div className="flex item-center font-black text-sm justify-center cursor-pointer">
-                Our Team
+                Past Events
+              </div>
+            </HashLink>
+            <HashLink
+            smooth
+              to="/#socials"
+              
+            >
+              <div className="flex item-center font-black text-sm justify-center cursor-pointer">
+                Socials
               </div>
             </HashLink>
             </div>

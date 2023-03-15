@@ -4,7 +4,7 @@ import instagram from '../assets/instagram.jpeg'
 import linkedin from '../assets/linkedin.jpeg'
 const Socials = () => {
   return (
-    <section className="w-screen h-full bg-black" id="team">
+    <section className="w-screen h-full bg-black" id="socials">
     <div className="w-full h-full flex items-start justify-start flex-col p-6">
         <div className="flex items-center justify-start">
         <h1 className='text-[2rem]  xs:text-[2.7rem] s:text-6xl sm:text-[4rem] md:text-[5rem] lg:text-8xl xl:text-9xl 2xl:text-[154px] font-black sm:leading-tight text-[#ffffff] whitespace-nowrap'>SOCIALS <span className="text-[#d5FF40]">.</span></h1>
